@@ -1,0 +1,41 @@
+
+
+.usuario{
+    border-radius: 15px;
+}
+
+
+
+
+.logof{
+    padding: 28px;
+}
+
+Form{
+    width: 270px;
+    display: block ;
+    margin: auto;
+}
+
+/* .Form.Group button .face{
+    border: none;
+    background-color: none;
+} */
+
+#btn1{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+
+a{
+    color: black;
+}
+
+.btnRegistro{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #027373;
+}
+
+

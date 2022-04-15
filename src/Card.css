@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+:root {
+	--color-primary: #08b2c9;
+	--color-secondary: #28527a;
+	--color-light: #dbf6e9;
+	--color-dark: #151515;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: '';
+	/* background-image: url('https://img.freepik.com/foto-gratis/fondo-textura-hormigon-negro_53876-145151.jpg?t=st=1648864627~exp=1648865227~hmac=ca81fae75df215668f990d9241c6f339f5c48a0e485d15adc2a51ded3341964b&w=740'); */
+	color: var(--color-light);
+}
+
+.container {
+	width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+
+.filtrar {
+	width: 100%;
+	max-width: 60rem;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+    margin-top: 20px;
+}
+input {
+	height: 4rem;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 100%;
+}
+
+.lista-personajes {
+	width: 100%;
+	display: grid;
+	gap: 4rem;
+	cursor: pointer;
+	border-radius: 35px;
+}
+
+.personaje {
+	background: scroll;
+	border-radius: 0.3rem;
+	box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.1);
+	display: grid;
+
+}
+@keyframes showCard {
+	from {
+		opacity: 0;
+	}
+}
+.personaje-header {
+	text-align: right;
+	
+}
+/* .unknown {
+	background: #fb0a0a;
+} */
+
+.personaje-body figure img {
+	width: 100%;
+	background-color: #747475;
+
+}
+.personaje-body h2 {
+	width: 100%;
+	background: rgb(12, 12, 12);
+	color: var(--color-light);
+	border-radius: 0.5rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	transition-property: background, color;
+	font-size: 1.8rem;
+}
+
+.personaje-body p span {
+	font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+	.lista-personajes {
+		grid-template: auto / repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.lista-personajes {
+		grid-template: auto / repeat(5, 1fr);
+	}
+}
