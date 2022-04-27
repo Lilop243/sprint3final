@@ -1,7 +1,7 @@
 # BLOCK MASTER 
 
 Block Master es la plataforma de contenido más reciente en el mercado pero a la vez la más potente. Descubre todas sus funciones en este genial proyecto de diseño.
-![ScreenShot](public/git.jpg)
+![ScreenShot](public/git2.jpg)
 ## Desplegable
 https://sprint3final.vercel.app/
 
